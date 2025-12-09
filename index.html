@@ -1,669 +1,733 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>NetPilot Ai | Innovate. Automate. Accelerate.</title>
+  <title>NetPilot Ai™ – AI Automation, Custom AI Apps & Engineering Solutions</title>
 
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="NetPilot Ai helps businesses innovate, automate, and accelerate with AI automation, custom AI apps, engineering projects, e-commerce development, and cutting-edge digital solutions.">
-    <meta name="keywords" content="NetPilot Ai, AI automation, AI agents, custom AI apps, automation engineering, web development, UGC ads, e-commerce, SaaS">
-    <meta name="author" content="NetPilot Ai">
-    <link rel="canonical" href="https://netpilotai.com">
+  <!-- Primary SEO -->
+  <meta name="description" content="NetPilot Ai™ builds AI automation, custom AI apps, engineering & IoT solutions, e-commerce, web experiences, chatbots, UGC ads, and digital products to help businesses innovate, automate, and accelerate." />
+  <link rel="canonical" href="https://netpilotai.com" />
 
-    <!-- Open Graph / Social -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="NetPilot Ai | Innovate. Automate. Accelerate.">
-    <meta property="og:description" content="AI-powered automation, custom AI apps, engineering solutions, and modern digital experiences for forward-thinking brands.">
-    <meta property="og:url" content="https://netpilotai.com">
-    <meta property="og:site_name" content="NetPilot Ai">
+  <!-- Open Graph / Social Preview -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="NetPilot Ai™ – Innovate. Automate. Accelerate." />
+  <meta property="og:description" content="AI Automation, Custom AI Apps, Engineering & IoT, Web Dev & Design, Chatbot Dev, UGC Ads and Digital Products." />
+  <meta property="og:url" content="https://netpilotai.com" />
+  <meta property="og:image" content="https://netpilotai.com/catalogue_npa.jpg" />
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="NetPilot Ai | Innovate. Automate. Accelerate.">
-    <meta name="twitter:description" content="AI agents, automation, and smart engineering solutions for modern businesses.">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="NetPilot Ai™ – Innovate. Automate. Accelerate." />
+  <meta name="twitter:description" content="AI automation and modern digital solutions for future-ready businesses." />
 
-    <!-- Favicon (uses your logo) -->
-    <link rel="icon" href="logo_NPA.jpg" type="image/jpeg">
+  <!-- Favicon -->
+  <link rel="icon" href="logo_NPA.jpg" type="image/jpeg" />
 
-    <!-- Tailwind & Icons -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Tailwind & Icons & AOS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet"
+        href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        brand: {
-                            black: '#050505',
-                            dark: '#0a0a0f',
-                            neon: '#00f3ff',
-                            neonHover: '#00c3cc',
-                            card: 'rgba(20, 20, 30, 0.7)'
-                        }
-                    },
-                    fontFamily: {
-                        heading: ['Orbitron', 'sans-serif'],
-                        body: ['Roboto', 'sans-serif'],
-                    },
-                    boxShadow: {
-                        'neon': '0 0 10px rgba(0, 243, 255, 0.5), 0 0 20px rgba(0, 243, 255, 0.3)',
-                        'neon-strong': '0 0 15px rgba(0, 243, 255, 0.8), 0 0 30px rgba(0, 243, 255, 0.5)',
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        body {
-            background-color: #050505;
-            color: white;
-            background-image: 
-                linear-gradient(rgba(0, 243, 255, 0.03) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(0, 243, 255, 0.03) 1px, transparent 1px);
-            background-size: 30px 30px;
-        }
-        
-        .glass-card {
-            background: rgba(15, 23, 42, 0.6);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(0, 243, 255, 0.2);
-            transition: all 0.3s ease;
-        }
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
 
-        .glass-card:hover {
-            border-color: #00f3ff;
-            box-shadow: 0 0 20px rgba(0, 243, 255, 0.2);
-            transform: translateY(-5px);
-        }
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              black: "#050505",
+              dark: "#0a0a0f",
+              neon: "#00f3ff",
+              neonHover: "#00c3cc",
+              card: "rgba(20, 20, 30, 0.7)",
+            },
+          },
+          fontFamily: {
+            heading: ["Orbitron", "sans-serif"],
+            body: ["Roboto", "sans-serif"],
+          },
+          boxShadow: {
+            neon: "0 0 10px rgba(0, 243, 255, 0.5), 0 0 20px rgba(0, 243, 255, 0.3)",
+            "neon-strong":
+              "0 0 15px rgba(0, 243, 255, 0.8), 0 0 30px rgba(0, 243, 255, 0.5)",
+          },
+        },
+      },
+    };
+  </script>
 
-        /* Custom Scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-        ::-webkit-scrollbar-track {
-            background: #000;
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #00f3ff;
-            border-radius: 4px;
-        }
+  <!-- JSON-LD Organization Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "NetPilot Ai™",
+    "url": "https://netpilotai.com",
+    "logo": "https://netpilotai.com/logo_NPA.jpg",
+    "description": "NetPilot Ai™ builds AI automation, custom AI apps, engineering & IoT solutions, e-commerce, web experiences, chatbots, UGC ads, and digital products.",
+    "sameAs": [
+      "https://www.instagram.com/netpilotai"
+    ]
+  }
+  </script>
 
-        /* Success neon fade animation */
-        @keyframes neonFade {
-            0% { opacity: 0; text-shadow: none; }
-            100% { opacity: 1; text-shadow: 0 0 10px #00f3ff, 0 0 20px #00f3ff; }
-        }
-        .success-animate {
-            animation: neonFade 0.8s ease-in-out forwards;
-        }
+  <style>
+    body {
+      background-color: #050505;
+      color: white;
+      background-image:
+        linear-gradient(rgba(0, 243, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 243, 255, 0.03) 1px, transparent 1px);
+      background-size: 30px 30px;
+    }
 
-        /* Bot avatar pulse when typing */
-        @keyframes botPulse {
-            0% {
-                transform: scale(1);
-                box-shadow: 0 0 0 0 rgba(0, 243, 255, 0.4);
-            }
-            70% {
-                transform: scale(1.06);
-                box-shadow: 0 0 25px 10px rgba(0, 243, 255, 0);
-            }
-            100% {
-                transform: scale(1);
-                box-shadow: 0 0 0 0 rgba(0, 243, 255, 0);
-            }
-        }
-        .bot-avatar {
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .bot-avatar-typing {
-            animation: botPulse 1.2s infinite;
-        }
-    </style>
+    .glass-card {
+      background: rgba(15, 23, 42, 0.65);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(0, 243, 255, 0.25);
+      transition: all 0.3s ease;
+    }
+
+    .glass-card:hover {
+      border-color: #00f3ff;
+      box-shadow: 0 0 20px rgba(0, 243, 255, 0.25);
+      transform: translateY(-4px);
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #000;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #00f3ff;
+      border-radius: 4px;
+    }
+
+    /* Chatbot avatar pulse */
+    @keyframes botPulse {
+      0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(0, 243, 255, 0.6);
+      }
+      70% {
+        transform: scale(1.06);
+        box-shadow: 0 0 25px 10px rgba(0, 243, 255, 0);
+      }
+      100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(0, 243, 255, 0);
+      }
+    }
+    .bot-avatar-typing {
+      animation: botPulse 1.2s infinite;
+    }
+
+    /* Success neon fade */
+    @keyframes neonFade {
+      0% { opacity: 0; text-shadow: none; }
+      100% { opacity: 1; text-shadow: 0 0 10px #00f3ff, 0 0 20px #00f3ff; }
+    }
+    .success-animate {
+      animation: neonFade 0.8s ease-in-out forwards;
+    }
+  </style>
 </head>
+
 <body class="font-body overflow-x-hidden">
 
-    <nav class="fixed w-full z-50 bg-black/90 backdrop-blur-md border-b border-brand-neon/20">
-        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="flex items-center gap-3">
-                <!-- Logo in navbar -->
-                <img src="logo_NPA.jpg" alt="NetPilot Ai logo" class="h-10 w-auto rounded-md shadow-neon">
-                <span class="text-brand-neon font-heading text-2xl font-bold tracking-wider">
-                    NetPilot Ai
-                </span>
-            </div>
-            <div class="hidden md:flex space-x-8">
-                <a href="#home" class="hover:text-brand-neon transition duration-300">Home</a>
-                <a href="#services" class="hover:text-brand-neon transition duration-300">Services</a>
-                <a href="#projects" class="hover:text-brand-neon transition duration-300">Projects</a>
-                <a href="#contact" class="hover:text-brand-neon transition duration-300">Contact</a>
-            </div>
-            <button class="md:hidden text-brand-neon text-2xl">
-                <i class="fa-solid fa-bars"></i>
-            </button>
-        </div>
-    </nav>
-
-    <section id="home" class="h-screen flex items-center justify-center relative overflow-hidden">
-        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-brand-neon/20 rounded-full blur-[120px] -z-10 animate-pulse"></div>
-
-        <div class="text-center px-6" data-aos="fade-up" data-aos-duration="1000">
-            <h2 class="text-brand-neon font-heading text-lg md:text-xl tracking-[0.5em] mb-4 uppercase">Future Ready Solutions</h2>
-            <h1 class="text-5xl md:text-7xl font-bold mb-6 font-heading text-white drop-shadow-lg">
-                NetPilot <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Ai</span>
-            </h1>
-            <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto border-l-2 border-brand-neon pl-4 italic">
-                "Innovate. Automate. Accelerate."
-            </p>
-            <div class="flex flex-col md:flex-row gap-4 justify-center">
-                <a href="#services" class="px-8 py-3 bg-transparent border border-brand-neon text-brand-neon font-bold rounded hover:bg-brand-neon hover:text-black transition duration-300 shadow-neon">
-                    Explore Services
-                </a>
-                <a href="#contact" class="px-8 py-3 bg-brand-neon text-black font-bold rounded hover:bg-white transition duration-300">
-                    Get a Quote
-                </a>
-                <!-- New video modal trigger -->
-                <button type="button"
-                        onclick="openVideoModal()"
-                        class="px-8 py-3 bg-white/5 border border-brand-neon/40 text-white font-bold rounded hover:bg-brand-neon/10 transition duration-300">
-                    Watch Demo
-                </button>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-20 bg-brand-dark">
-        <div class="container mx-auto px-6">
-            <div class="grid md:grid-cols-2 gap-12 items-center">
-                <div data-aos="fade-right">
-                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Cyberpunk City" class="rounded-lg shadow-neon-strong border border-brand-neon/30 opacity-80">
-                </div>
-                <div data-aos="fade-left">
-                    <h2 class="text-3xl md:text-4xl font-heading font-bold mb-6 text-white">Who We <span class="text-brand-neon">Are</span></h2>
-                    <p class="text-gray-300 mb-6 leading-relaxed">
-                        We are a team of visionary engineers and developers bridging the gap between imagination and industrial reality. At NetPilot Ai, we don't just build software; we engineer intelligent ecosystems that drive business growth.
-                    </p>
-                    <ul class="space-y-4">
-                        <li class="flex items-center gap-3">
-                            <i class="fa-solid fa-check text-brand-neon"></i>
-                            <span>End-to-End Automation Strategies</span>
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <i class="fa-solid fa-check text-brand-neon"></i>
-                            <span>Custom Hardware & IoT Integration</span>
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <i class="fa-solid fa-check text-brand-neon"></i>
-                            <span>High-Performance Web Architecture</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="services" class="py-20 relative">
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-16" data-aos="fade-up">
-                <h2 class="text-4xl font-heading font-bold mb-4">Our <span class="text-brand-neon">Services</span></h2>
-                <div class="h-1 w-24 bg-brand-neon mx-auto rounded"></div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="glass-card p-6 rounded-xl relative group" data-aos="flip-left" data-aos-delay="100">
-                    <div class="text-4xl text-brand-neon mb-4 group-hover:scale-110 transition duration-300">
-                        <i class="fa-solid fa-brain"></i>
-                    </div>
-                    <h3 class="text-xl font-heading font-bold mb-2">AI Automation</h3>
-                    <p class="text-sm text-gray-400">Streamline your workflows with intelligent automation systems.</p>
-                </div>
-
-                <div class="glass-card p-6 rounded-xl relative group" data-aos="flip-left" data-aos-delay="200">
-                    <div class="text-4xl text-brand-neon mb-4 group-hover:scale-110 transition duration-300">
-                        <i class="fa-solid fa-code"></i>
-                    </div>
-                    <h3 class="text-xl font-heading font-bold mb-2">Custom AI Apps</h3>
-                    <p class="text-sm text-gray-400">Tailored AI solutions built specifically for your business logic.</p>
-                </div>
-
-                <div class="glass-card p-6 rounded-xl relative group" data-aos="flip-left" data-aos-delay="300">
-                    <div class="text-4xl text-brand-neon mb-4 group-hover:scale-110 transition duration-300">
-                        <i class="fa-solid fa-robot"></i>
-                    </div>
-                    <h3 class="text-xl font-heading font-bold mb-2">Engineering Projects</h3>
-                    <p class="text-sm text-gray-400">AI-powered industrial and automation engineering solutions.</p>
-                </div>
-
-                <div class="glass-card p-6 rounded-xl relative group" data-aos="flip-left" data-aos-delay="400">
-                    <div class="text-4xl text-brand-neon mb-4 group-hover:scale-110 transition duration-300">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                    <h3 class="text-xl font-heading font-bold mb-2">E-Commerce Dev</h3>
-                    <p class="text-sm text-gray-400">Scalable online stores with performance optimization.</p>
-                </div>
-
-                <div class="glass-card p-6 rounded-xl relative group" data-aos="flip-left" data-aos-delay="500">
-                    <div class="text-4xl text-brand-neon mb-4 group-hover:scale-110 transition duration-300">
-                        <i class="fa-solid fa-laptop-code"></i>
-                    </div>
-                    <h3 class="text-xl font-heading font-bold mb-2">Web Development</h3>
-                    <p class="text-sm text-gray-400">Seamless, modern digital experiences and responsive sites.</p>
-                </div>
-
-                <div class="glass-card p-6 rounded-xl relative group" data-aos="flip-left" data-aos-delay="600">
-                    <div class="text-4xl text-brand-neon mb-4 group-hover:scale-110 transition duration-300">
-                        <i class="fa-solid fa-pen-nib"></i>
-                    </div>
-                    <h3 class="text-xl font-heading font-bold mb-2">Logo Designing</h3>
-                    <p class="text-sm text-gray-400">Crafting distinctive brand identities that stand out.</p>
-                </div>
-
-                <div class="glass-card p-6 rounded-xl relative group" data-aos="flip-left" data-aos-delay="700">
-                    <div class="text-4xl text-brand-neon mb-4 group-hover:scale-110 transition duration-300">
-                        <i class="fa-solid fa-video"></i>
-                    </div>
-                    <h3 class="text-xl font-heading font-bold mb-2">UGC Ad Creation</h3>
-                    <p class="text-sm text-gray-400">High-impact video and image ads for modern marketing.</p>
-                </div>
-
-                <div class="glass-card p-6 rounded-xl relative group" data-aos="flip-left" data-aos-delay="800">
-                    <div class="text-4xl text-brand-neon mb-4 group-hover:scale-110 transition duration-300">
-                        <i class="fa-solid fa-rocket"></i>
-                    </div>
-                    <h3 class="text-xl font-heading font-bold mb-2">Future Solutions</h3>
-                    <p class="text-sm text-gray-400">Embrace the next wave of technology with our R&D.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="py-20 bg-brand-dark">
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-16" data-aos="fade-up">
-                <h2 class="text-4xl font-heading font-bold mb-4">Featured <span class="text-brand-neon">Projects</span></h2>
-                <p class="text-gray-400">Real world applications driving real results.</p>
-            </div>
-
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-black border border-gray-800 rounded-xl overflow-hidden hover:border-brand-neon transition duration-300 group" data-aos="fade-up" data-aos-delay="100">
-                    <div class="h-48 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="AI Agent" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold font-heading text-white mb-2">Auto-Support AI Agent</h3>
-                        <p class="text-gray-400 text-sm mb-4">A custom-trained LLM chatbot for a logistics company that reduced support ticket volume by 65% in the first month.</p>
-                        <span class="text-xs font-bold text-brand-neon border border-brand-neon px-2 py-1 rounded">AI Automation</span>
-                    </div>
-                </div>
-
-                <div class="bg-black border border-gray-800 rounded-xl overflow-hidden hover:border-brand-neon transition duration-300 group" data-aos="fade-up" data-aos-delay="200">
-                    <div class="h-48 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Dashboard" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold font-heading text-white mb-2">Smart Inventory System</h3>
-                        <p class="text-gray-400 text-sm mb-4">An IoT-enabled dashboard tracking stock levels in real-time, automatically triggering re-orders when low.</p>
-                        <span class="text-xs font-bold text-brand-neon border border-brand-neon px-2 py-1 rounded">Web App & IoT</span>
-                    </div>
-                </div>
-
-                <div class="bg-black border border-gray-800 rounded-xl overflow-hidden hover:border-brand-neon transition duration-300 group" data-aos="fade-up" data-aos-delay="300">
-                    <div class="h-48 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Marketing" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold font-heading text-white mb-2">Viral UGC Campaign</h3>
-                        <p class="text-gray-400 text-sm mb-4">Produced a series of high-energy short-form video ads for a tech startup, resulting in a 40% CTR increase.</p>
-                        <span class="text-xs font-bold text-brand-neon border border-brand-neon px-2 py-1 rounded">UGC & Marketing</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="py-20 relative overflow-hidden">
-        <div class="container mx-auto px-6 relative z-10">
-            <div class="max-w-4xl mx-auto glass-card rounded-2xl p-8 md:p-12 shadow-neon">
-                <div class="text-center mb-10">
-                    <h2 class="text-3xl font-heading font-bold mb-4">Start Your <span class="text-brand-neon">Transformation</span></h2>
-                    <p class="text-gray-300">Tell us about your project.</p>
-                </div>
-
-                <div class="grid md:grid-cols-2 gap-12">
-                    <div class="space-y-6">
-                        <div class="flex items-start gap-4">
-                            <div class="bg-brand-neon/10 p-3 rounded-full text-brand-neon">
-                                <i class="fa-solid fa-phone"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-white">Call Us</h4>
-                                <p class="text-gray-400">+91 7899352501</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-4">
-                            <div class="bg-brand-neon/10 p-3 rounded-full text-brand-neon">
-                                <i class="fa-solid fa-envelope"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-white">Email Us</h4>
-                                <p class="text-gray-400">dev@netpilotai.com</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-4">
-                            <div class="bg-brand-neon/10 p-3 rounded-full text-brand-neon">
-                                <i class="fa-brands fa-instagram"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-white">Follow Us</h4>
-                                <p class="text-gray-400">@netpilotai</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Contact form with Formspree, spinner, spam protection, success message -->
-                    <form id="contactForm" action="https://formspree.io/f/xyzrdzgo" method="POST" class="space-y-4">
-                        <!-- Honeypot field for spam protection (hidden from humans) -->
-                        <div class="hidden">
-                            <label>Company</label>
-                            <input type="text" name="company" autocomplete="off">
-                        </div>
-
-                        <div>
-                            <input type="text" name="name" placeholder="Your Name" required
-                                   class="w-full bg-black/50 border border-gray-700 rounded p-3 text-white focus:border-brand-neon focus:outline-none transition">
-                        </div>
-                        <div>
-                            <input type="email" name="email" placeholder="Your Email" required
-                                   class="w-full bg-black/50 border border-gray-700 rounded p-3 text-white focus:border-brand-neon focus:outline-none transition">
-                        </div>
-                        <div>
-                            <textarea name="message" rows="4" placeholder="Project Details" required
-                                      class="w-full bg-black/50 border border-gray-700 rounded p-3 text-white focus:border-brand-neon focus:outline-none transition"></textarea>
-                        </div>
-                        <button id="submitBtn" type="submit"
-                                class="w-full bg-brand-neon text-black font-bold py-3 rounded hover:bg-white hover:shadow-neon transition duration-300 flex items-center justify-center gap-2">
-                            <span class="btn-text">Send Message</span>
-                            <span class="spinner hidden w-5 h-5 border-2 border-black border-t-transparent rounded-full animate-spin"></span>
-                        </button>
-                        <p id="formMessage" class="text-center text-sm mt-2 hidden"></p>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-black border-t border-gray-800 py-8 text-center text-sm text-gray-500">
-        <p>&copy; 2025 NetPilot Ai. All rights reserved. <br> Innovate. Automate. Accelerate.</p>
-    </footer>
-
-    <!-- Video Modal -->
-    <div id="videoModal" class="fixed inset-0 bg-black/80 flex items-center justify-center z-40 hidden">
-        <div class="relative w-11/12 max-w-3xl bg-black border border-brand-neon rounded-2xl shadow-neon p-3">
-            <button onclick="closeVideoModal()"
-                    class="absolute -top-3 -right-3 bg-brand-neon text-black rounded-full w-8 h-8 flex items-center justify-center shadow-neon hover:bg-white transition">
-                <i class="fa-solid fa-xmark"></i>
-            </button>
-            <div class="aspect-video">
-                <video id="showreelVideo" class="w-full h-full rounded-xl" controls>
-                    <!-- Put aivid.mp4 in your repo root or adjust this path -->
-                    <source src="aivid.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-        </div>
+  <!-- NAVBAR -->
+  <nav class="fixed w-full z-50 bg-black/90 backdrop-blur-md border-b border-brand-neon/20">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <img src="logo_NPA.jpg" alt="NetPilot Ai™ logo" class="h-10 w-auto rounded-md shadow-neon" />
+        <span class="text-brand-neon font-heading text-2xl font-bold tracking-wider">
+          NetPilot Ai™
+        </span>
+      </div>
+      <div class="hidden md:flex space-x-8">
+        <a href="#home" class="hover:text-brand-neon transition duration-300">Home</a>
+        <a href="#services" class="hover:text-brand-neon transition duration-300">Services</a>
+        <a href="#projects" class="hover:text-brand-neon transition duration-300">Projects</a>
+        <a href="#contact" class="hover:text-brand-neon transition duration-300">Contact</a>
+      </div>
+      <button id="mobileMenuBtn" class="md:hidden text-brand-neon text-2xl">
+        <i class="fa-solid fa-bars"></i>
+      </button>
     </div>
 
-    <!-- Chatbot -->
-    <div class="fixed bottom-6 right-6 z-50 flex flex-col items-end">
-        <div id="chat-window" class="hidden mb-4 w-72 bg-gray-900 border border-brand-neon rounded-lg shadow-neon-strong overflow-hidden flex flex-col">
-            <div class="bg-brand-neon text-black p-3 font-bold flex justify-between items-center">
-                <span>NetPilot Assistant</span>
-                <button onclick="toggleChat()" class="text-black hover:text-white"><i class="fa-solid fa-xmark"></i></button>
-            </div>
-            <div id="chatBody" class="p-4 h-64 overflow-y-auto space-y-3 bg-black/80">
-                <div class="bg-gray-800 p-2 rounded-lg rounded-tl-none text-xs text-gray-300 self-start max-w-[80%]">
-                    Hello! I'm the NetPilot Ai assistant. Ask me anything about our services, projects, or how we can help your business.
-                </div>
-                <!-- Typing indicator -->
-                <div id="typingIndicator" class="hidden text-xs text-gray-400 italic flex items-center gap-2 mt-2">
-                    <span class="inline-flex h-2 w-2 rounded-full bg-brand-neon animate-pulse"></span>
-                    <span>NetPilot Ai is typing...</span>
-                </div>
-            </div>
-            <div class="p-2 border-t border-gray-700 bg-gray-900 flex">
-                <input id="chatInput" type="text" placeholder="Type a message..."
-                       class="flex-1 bg-transparent text-white text-sm focus:outline-none px-2"
-                       onkeydown="if(event.key==='Enter'){event.preventDefault(); sendChatMessage();}">
-                <button onclick="sendChatMessage()" class="text-brand-neon px-2">
-                    <i class="fa-solid fa-paper-plane"></i>
-                </button>
-            </div>
-        </div>
+    <!-- Mobile Nav -->
+    <div id="mobileNav" class="md:hidden hidden flex-col bg-black/95 border-t border-brand-neon/30">
+      <a href="#home" class="px-6 py-3 border-b border-gray-800 hover:bg-brand-neon/10">Home</a>
+      <a href="#services" class="px-6 py-3 border-b border-gray-800 hover:bg-brand-neon/10">Services</a>
+      <a href="#projects" class="px-6 py-3 border-b border-gray-800 hover:bg-brand-neon/10">Projects</a>
+      <a href="#contact" class="px-6 py-3 hover:bg-brand-neon/10">Contact</a>
+    </div>
+  </nav>
 
-        <!-- Animated logo avatar button -->
-        <button onclick="toggleChat()" class="w-14 h-14 bg-transparent rounded-full flex items-center justify-center transition duration-300">
-            <div id="chatAvatar" class="bot-avatar w-14 h-14 rounded-full overflow-hidden bg-black flex items-center justify-center shadow-neon border border-brand-neon/60">
-                <img src="logo_NPA.jpg" alt="NetPilot Ai bot" class="w-full h-full object-cover">
-            </div>
+  <!-- HERO -->
+  <section id="home" class="h-screen flex items-center justify-center relative overflow-hidden">
+    <!-- Neon halo glow -->
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-brand-neon/15 rounded-full blur-[120px] -z-10 animate-pulse"></div>
+
+    <div class="text-center px-6" data-aos="fade-up" data-aos-duration="1000">
+      <h2 class="text-brand-neon font-heading text-xs md:text-sm tracking-[0.5em] mb-4 uppercase">Future Ready Solutions</h2>
+      <h1 class="text-5xl md:text-7xl font-bold mb-4 font-heading text-white drop-shadow-lg">
+        NetPilot <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Ai™</span>
+      </h1>
+      <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto border-l-2 border-brand-neon pl-4 italic">
+        "Innovate. Automate. Accelerate."
+      </p>
+      <div class="flex flex-col md:flex-row gap-4 justify-center">
+        <a href="#services" class="px-8 py-3 bg-transparent border border-brand-neon text-brand-neon font-bold rounded hover:bg-brand-neon hover:text-black transition duration-300 shadow-neon">
+          Explore Services
+        </a>
+        <a href="#contact" class="px-8 py-3 bg-brand-neon text-black font-bold rounded hover:bg-white transition duration-300">
+          Get a Quote
+        </a>
+        <button type="button"
+          onclick="openVideoModal()"
+          class="px-8 py-3 bg-white/5 border border-brand-neon/40 text-white font-bold rounded hover:bg-brand-neon/10 transition duration-300 flex items-center gap-2">
+          <i class="fa-solid fa-play text-brand-neon"></i>
+          Watch Demo
         </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO WE ARE -->
+  <section class="py-20 bg-brand-dark">
+    <div class="container mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div data-aos="fade-right">
+          <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=900&q=80"
+               alt="Futuristic AI city"
+               class="rounded-lg shadow-neon-strong border border-brand-neon/30 opacity-90" />
+        </div>
+        <div data-aos="fade-left">
+          <h2 class="text-3xl md:text-4xl font-heading font-bold mb-6 text-white">
+            Who We <span class="text-brand-neon">Are</span>
+          </h2>
+          <p class="text-gray-300 mb-6 leading-relaxed">
+            NetPilot Ai™ is a team of engineers and developers turning complex workflows into intelligent, automated systems. We build end-to-end solutions that blend AI, engineering & modern web technologies to help you operate faster and smarter.
+          </p>
+          <ul class="space-y-3 text-gray-300 text-sm">
+            <li class="flex items-center gap-3">
+              <i class="fa-solid fa-check text-brand-neon"></i>
+              <span>End-to-end AI automation for real business use-cases.</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i class="fa-solid fa-check text-brand-neon"></i>
+              <span>Custom apps, chatbots, dashboards & engineering integrations.</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i class="fa-solid fa-check text-brand-neon"></i>
+              <span>Designed for performance, reliability & long-term scalability.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="py-20 relative">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-12" data-aos="fade-up">
+        <h2 class="text-4xl font-heading font-bold mb-3">Our <span class="text-brand-neon">Services</span></h2>
+        <p class="text-gray-400 text-sm max-w-xl mx-auto">
+          From AI-first automation to digital products, NetPilot Ai™ delivers full-stack solutions tailored to your business.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- AI Automation -->
+        <div class="glass-card p-6 rounded-xl text-center" data-aos="zoom-in" data-aos-delay="50">
+          <div class="text-3xl text-brand-neon mb-4">
+            <i class="fa-solid fa-robot"></i>
+          </div>
+          <h3 class="font-heading text-lg mb-2">AI Automation</h3>
+          <p class="text-sm text-gray-300">Automate repetitive workflows with intelligent, LLM-powered agents.</p>
+        </div>
+
+        <!-- Custom AI Apps -->
+        <div class="glass-card p-6 rounded-xl text-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="text-3xl text-brand-neon mb-4">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+          </div>
+          <h3 class="font-heading text-lg mb-2">Custom AI Apps</h3>
+          <p class="text-sm text-gray-300">Tailor-made AI-driven web & mobile experiences for your business logic.</p>
+        </div>
+
+        <!-- Engineering & IoT -->
+        <div class="glass-card p-6 rounded-xl text-center" data-aos="zoom-in" data-aos-delay="150">
+          <div class="text-3xl text-brand-neon mb-4">
+            <i class="fa-solid fa-industry"></i>
+          </div>
+          <h3 class="font-heading text-lg mb-2">Engineering & IoT</h3>
+          <p class="text-sm text-gray-300">AI-powered industrial, automation & IoT integrations with real-time insights.</p>
+        </div>
+
+        <!-- E-Commerce Dev -->
+        <div class="glass-card p-6 rounded-xl text-center" data-aos="zoom-in" data-aos-delay="200">
+          <div class="text-3xl text-brand-neon mb-4">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <h3 class="font-heading text-lg mb-2">E-Commerce Dev</h3>
+          <p class="text-sm text-gray-300">High-performance online stores designed to convert and scale.</p>
+        </div>
+
+        <!-- Web Dev & Design -->
+        <div class="glass-card p-6 rounded-xl text-center" data-aos="zoom-in" data-aos-delay="250">
+          <div class="text-3xl text-brand-neon mb-4">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <h3 class="font-heading text-lg mb-2">Web Dev & Design</h3>
+          <p class="text-sm text-gray-300">Modern, responsive websites with clean UX and strong visual identity.</p>
+        </div>
+
+        <!-- Chatbot Dev -->
+        <div class="glass-card p-6 rounded-xl text-center" data-aos="zoom-in" data-aos-delay="300">
+          <div class="text-3xl text-brand-neon mb-4">
+            <i class="fa-solid fa-comments"></i>
+          </div>
+          <h3 class="font-heading text-lg mb-2">Chatbot Dev</h3>
+          <p class="text-sm text-gray-300">Conversational agents that handle FAQs, lead capture & support 24/7.</p>
+        </div>
+
+        <!-- UGC Ads -->
+        <div class="glass-card p-6 rounded-xl text-center" data-aos="zoom-in" data-aos-delay="350">
+          <div class="text-3xl text-brand-neon mb-4">
+            <i class="fa-solid fa-video"></i>
+          </div>
+          <h3 class="font-heading text-lg mb-2">UGC Ads</h3>
+          <p class="text-sm text-gray-300">Short-form video & visual creatives built to resonate and convert.</p>
+        </div>
+
+        <!-- Digital Products -->
+        <div class="glass-card p-6 rounded-xl text-center" data-aos="zoom-in" data-aos-delay="400">
+          <div class="text-3xl text-brand-neon mb-4">
+            <i class="fa-solid fa-book"></i>
+          </div>
+          <h3 class="font-heading text-lg mb-2">Digital Products</h3>
+          <p class="text-sm text-gray-300">E-books, templates & digital assets that help you scale knowledge & revenue.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-20 bg-brand-dark">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-12" data-aos="fade-up">
+        <h2 class="text-4xl font-heading font-bold mb-3">
+          Featured <span class="text-brand-neon">Projects</span>
+        </h2>
+        <p class="text-gray-400 text-sm max-w-xl mx-auto">
+          A glimpse of what NetPilot Ai™ has built for real-world clients.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-black border border-gray-800 rounded-xl overflow-hidden hover:border-brand-neon transition duration-300 group" data-aos="fade-up" data-aos-delay="50">
+          <div class="h-48 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&w=600&q=80"
+                 alt="AI customer support dashboard"
+                 class="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-heading font-bold mb-2 text-white">AI Support Agent</h3>
+            <p class="text-gray-400 text-sm mb-4">
+              A custom LLM-based assistant that helped a logistics client cut support tickets by ~65% in the first month.
+            </p>
+            <span class="text-xs font-bold text-brand-neon border border-brand-neon px-2 py-1 rounded">AI Automation</span>
+          </div>
+        </div>
+
+        <div class="bg-black border border-gray-800 rounded-xl overflow-hidden hover:border-brand-neon transition duration-300 group" data-aos="fade-up" data-aos-delay="100">
+          <div class="h-48 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80"
+                 alt="IoT dashboard"
+                 class="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-heading font-bold mb-2 text-white">Smart Inventory & IoT</h3>
+            <p class="text-gray-400 text-sm mb-4">
+              Real-time stock tracking, alerts & automated reordering for a mid-sized warehouse operation.
+            </p>
+            <span class="text-xs font-bold text-brand-neon border border-brand-neon px-2 py-1 rounded">Engineering & IoT</span>
+          </div>
+        </div>
+
+        <div class="bg-black border border-gray-800 rounded-xl overflow-hidden hover:border-brand-neon transition duration-300 group" data-aos="fade-up" data-aos-delay="150">
+          <div class="h-48 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=600&q=80"
+                 alt="UGC ad concept"
+                 class="w-full h-full object-cover group-hover:scale-110 transition duration-500" />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-heading font-bold mb-2 text-white">UGC Ad Funnel</h3>
+            <p class="text-gray-400 text-sm mb-4">
+              High-performing UGC-style ads that boosted CTR and reduced cost-per-click for a SaaS client.
+            </p>
+            <span class="text-xs font-bold text-brand-neon border border-brand-neon px-2 py-1 rounded">UGC Ads</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO MODAL -->
+  <div id="videoModal" class="fixed inset-0 bg-black/80 hidden justify-center items-center z-50">
+    <div class="relative w-11/12 max-w-3xl bg-black border border-brand-neon rounded-2xl shadow-neon p-3">
+      <button onclick="closeVideoModal()"
+        class="absolute -top-3 -right-3 bg-brand-neon text-black rounded-full w-8 h-8 flex items-center justify-center shadow-neon hover:bg-white transition">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="aspect-video">
+        <video id="demoVideo" class="w-full h-full rounded-xl" controls>
+          <source src="aivid.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-20 relative overflow-hidden">
+    <div class="container mx-auto px-6 relative z-10">
+      <div class="max-w-4xl mx-auto glass-card rounded-2xl p-8 md:p-12 shadow-neon">
+        <div class="text-center mb-10">
+          <h2 class="text-3xl font-heading font-bold mb-4">
+            Start Your <span class="text-brand-neon">Transformation</span>
+          </h2>
+          <p class="text-gray-300 text-sm">Tell us a bit about your project and we’ll get back to you.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12">
+          <div class="space-y-6 text-sm">
+            <div class="flex items-start gap-4">
+              <div class="bg-brand-neon/10 p-3 rounded-full text-brand-neon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-white text-sm">Call Us</h4>
+                <p class="text-gray-400">+91 7899352501</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <div class="bg-brand-neon/10 p-3 rounded-full text-brand-neon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-white text-sm">Email Us</h4>
+                <p class="text-gray-400">dev@netpilotai.com</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <div class="bg-brand-neon/10 p-3 rounded-full text-brand-neon">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-white text-sm">Instagram</h4>
+                <p class="text-gray-400">@netpilotai</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formspree Form -->
+          <form id="contactForm" action="https://formspree.io/f/xyzrdzgo" method="POST" class="space-y-4">
+            <!-- Honeypot -->
+            <div class="hidden">
+              <label>Company</label>
+              <input type="text" name="company" autocomplete="off" />
+            </div>
+
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              required
+              class="w-full bg-black/50 border border-gray-700 rounded p-3 text-white focus:border-brand-neon focus:outline-none transition" />
+
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+              class="w-full bg-black/50 border border-gray-700 rounded p-3 text-white focus:border-brand-neon focus:outline-none transition" />
+
+            <textarea
+              name="message"
+              rows="4"
+              placeholder="Project Details"
+              required
+              class="w-full bg-black/50 border border-gray-700 rounded p-3 text-white focus:border-brand-neon focus:outline-none transition"></textarea>
+
+            <button
+              id="submitBtn"
+              type="submit"
+              class="w-full bg-brand-neon text-black font-bold py-3 rounded hover:bg-white hover:shadow-neon transition duration-300 flex items-center justify-center gap-2">
+              <span class="btn-text">Send Message</span>
+              <span class="spinner hidden w-5 h-5 border-2 border-black border-t-transparent rounded-full animate-spin"></span>
+            </button>
+
+            <p id="formMessage" class="text-center text-sm mt-2 hidden"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-black border-t border-gray-800 py-8 text-center text-sm text-gray-500">
+    <p>
+      &copy; 2025 NetPilot Ai™. All rights reserved.
+      <br />
+      Innovate. Automate. Accelerate.
+    </p>
+  </footer>
+
+  <!-- CHATBOT -->
+  <div class="fixed bottom-6 right-6 z-50 flex flex-col items-end">
+    <div
+      id="chat-window"
+      class="hidden mb-4 w-72 bg-gray-900 border border-brand-neon rounded-lg shadow-neon-strong overflow-hidden flex flex-col">
+      <div class="bg-brand-neon text-black p-3 font-bold flex justify-between items-center text-sm">
+        <span>NetPilot Assistant</span>
+        <button onclick="toggleChat()" class="text-black hover:text-white">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div id="chatBody" class="p-4 h-64 overflow-y-auto space-y-3 bg-black/80 text-xs">
+        <div
+          class="bg-gray-800 p-2 rounded-lg rounded-tl-none text-gray-300 self-start max-w-[80%]">
+          Hey 👋 I’m the NetPilot Assistant, an AI bot from NetPilot Ai™. Ask me about our services, projects or how we can help your business.
+        </div>
+        <div id="typingIndicator" class="hidden text-gray-400 italic flex items-center gap-2">
+          <span class="inline-flex h-2 w-2 rounded-full bg-brand-neon animate-pulse"></span>
+          <span>NetPilot Ai is typing...</span>
+        </div>
+      </div>
+      <div class="p-2 border-t border-gray-700 bg-gray-900 flex">
+        <input
+          id="chatInput"
+          type="text"
+          placeholder="Type a message..."
+          class="flex-1 bg-transparent text-white text-xs focus:outline-none px-2"
+          onkeydown="if(event.key==='Enter'){event.preventDefault(); sendChatMessage();}" />
+        <button onclick="sendChatMessage()" class="text-brand-neon px-2">
+          <i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </div>
     </div>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        // Initialize Animations
-        AOS.init({
-            once: true,
-            offset: 100
+    <!-- Avatar Button -->
+    <button onclick="toggleChat()" class="w-14 h-14 bg-transparent rounded-full flex items-center justify-center transition duration-300">
+      <div
+        id="chatAvatar"
+        class="w-14 h-14 rounded-full overflow-hidden bg-black flex items-center justify-center shadow-neon border border-brand-neon/60">
+        <img src="logo_NPA.jpg" alt="NetPilot Ai bot" class="w-full h-full object-cover" />
+      </div>
+    </button>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: true, offset: 100 });
+
+    // Mobile Nav
+    const mobileMenuBtn = document.getElementById("mobileMenuBtn");
+    const mobileNav = document.getElementById("mobileNav");
+    mobileMenuBtn.addEventListener("click", () => {
+      mobileNav.classList.toggle("hidden");
+    });
+
+    // Video modal
+    const videoModal = document.getElementById("videoModal");
+    const demoVideo = document.getElementById("demoVideo");
+
+    function openVideoModal() {
+      videoModal.classList.remove("hidden");
+      if (demoVideo) {
+        demoVideo.currentTime = 0;
+        demoVideo.play().catch(() => {});
+      }
+    }
+
+    function closeVideoModal() {
+      videoModal.classList.add("hidden");
+      if (demoVideo) demoVideo.pause();
+    }
+
+    videoModal.addEventListener("click", (e) => {
+      if (e.target === videoModal) closeVideoModal();
+    });
+
+    // Contact form
+    const contactForm = document.getElementById("contactForm");
+    const submitBtn = document.getElementById("submitBtn");
+    const spinner = submitBtn.querySelector(".spinner");
+    const btnText = submitBtn.querySelector(".btn-text");
+    const formMessage = document.getElementById("formMessage");
+
+    contactForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const honeypot = contactForm.querySelector('input[name="company"]');
+      if (honeypot && honeypot.value.trim() !== "") return;
+
+      spinner.classList.remove("hidden");
+      btnText.textContent = "Sending...";
+      submitBtn.disabled = true;
+
+      const formData = new FormData(contactForm);
+
+      try {
+        const response = await fetch(contactForm.action, {
+          method: "POST",
+          body: formData,
+          headers: { Accept: "application/json" },
         });
 
-        // Chatbot Toggle Logic
-        function toggleChat() {
-            const chatWindow = document.getElementById('chat-window');
-            if (chatWindow.classList.contains('hidden')) {
-                chatWindow.classList.remove('hidden');
-            } else {
-                chatWindow.classList.add('hidden');
-            }
-        }
+        if (response.ok) {
+          formMessage.textContent = "✨ Thank you! We will contact you shortly. Have a great day! 😊";
+          formMessage.className = "text-center text-brand-neon font-bold success-animate mt-2";
+          contactForm.reset();
+          formMessage.scrollIntoView({ behavior: "smooth", block: "center" });
+        } else throw new Error();
+      } catch {
+        formMessage.textContent = "⚠️ Something went wrong! Please try again.";
+        formMessage.className = "text-center text-red-500 mt-2";
+        formMessage.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
 
-        // Contact Form Logic with Formspree + Spinner + Success Message + Auto Scroll + Honeypot
-        const contactForm = document.getElementById("contactForm");
-        const submitBtn = document.getElementById("submitBtn");
-        const formMessage = document.getElementById("formMessage");
-        const spinner = submitBtn ? submitBtn.querySelector(".spinner") : null;
-        const btnText = submitBtn ? submitBtn.querySelector(".btn-text") : null;
+      spinner.classList.add("hidden");
+      btnText.textContent = "Send Message";
+      submitBtn.disabled = false;
+    });
 
-        if (contactForm && submitBtn && formMessage && spinner && btnText) {
-            contactForm.addEventListener("submit", async function (e) {
-                e.preventDefault();
+    // Chatbot
+    const chatWindow = document.getElementById("chat-window");
+    const chatAvatar = document.getElementById("chatAvatar");
+    const chatBody = document.getElementById("chatBody");
+    const chatInput = document.getElementById("chatInput");
+    const typingIndicator = document.getElementById("typingIndicator");
 
-                // Honeypot spam protection
-                const honeypot = contactForm.querySelector('input[name="company"]');
-                if (honeypot && honeypot.value.trim() !== "") {
-                    // Bot detected, silently ignore
-                    return;
-                }
+    function toggleChat() {
+      if (chatWindow.classList.contains("hidden")) {
+        chatWindow.classList.remove("hidden");
+        chatInput.focus();
+      } else {
+        chatWindow.classList.add("hidden");
+      }
+    }
 
-                // Start loading
-                spinner.classList.remove("hidden");
-                btnText.textContent = "Sending...";
-                submitBtn.disabled = true;
+    function appendMessage(sender, text) {
+      const bubble = document.createElement("div");
+      bubble.classList.add(
+        "p-2",
+        "rounded-lg",
+        "text-xs",
+        "max-w-[80%]",
+        "mb-1"
+      );
+      if (sender === "user") {
+        bubble.classList.add(
+          "bg-brand-neon",
+          "text-black",
+          "rounded-tr-none",
+          "self-end",
+          "ml-auto"
+        );
+      } else {
+        bubble.classList.add(
+          "bg-gray-800",
+          "text-gray-300",
+          "rounded-tl-none"
+        );
+      }
+      bubble.textContent = text;
+      chatBody.insertBefore(bubble, typingIndicator);
+      chatBody.scrollTop = chatBody.scrollHeight;
+    }
 
-                const formData = new FormData(contactForm);
+    function findAnswer(message) {
+      const text = message.toLowerCase();
 
-                try {
-                    const response = await fetch(contactForm.action, {
-                        method: "POST",
-                        body: formData,
-                        headers: { Accept: "application/json" }
-                    });
+      if (["hi", "hello", "hey", "yo", "hola"].includes(text)) {
+        return "Hey! 👋 I’m the NetPilot Assistant. I can help with our services, projects, pricing guidance and how we work. What are you curious about?";
+      }
 
-                    if (response.ok) {
-                        formMessage.textContent = "✨ Thank you! We will contact you shortly. Have a great day! 😊";
-                        formMessage.classList.remove("hidden");
-                        formMessage.classList.remove("text-red-500");
-                        formMessage.classList.add("text-brand-neon", "font-bold", "success-animate");
+      if (text.includes("service") || text.includes("what do you do")) {
+        return "We offer: AI Automation, Custom AI Apps, Engineering & IoT, E-Commerce Dev, Web Dev & Design, Chatbot Dev, UGC Ads, and Digital Products. You can scroll to the Services section for a full overview. 🚀";
+      }
 
-                        contactForm.reset();
+      if (text.includes("ai automation")) {
+        return "AI Automation at NetPilot Ai™ means building agents and workflows that reduce repetitive work — support, lead qualification, routing, and internal operations.";
+      }
 
-                        // Auto-scroll so the user sees the success message clearly
-                        formMessage.scrollIntoView({ behavior: "smooth", block: "center" });
-                    } else {
-                        throw new Error();
-                    }
-                } catch (error) {
-                    formMessage.textContent = "⚠️ Something went wrong! Please try again.";
-                    formMessage.classList.remove("hidden");
-                    formMessage.classList.remove("text-brand-neon", "font-bold", "success-animate");
-                    formMessage.classList.add("text-red-500");
+      if (text.includes("chatbot")) {
+        return "We build custom chatbots for websites, WhatsApp, support flows and internal tools. They can be FAQ bots, sales assistants, or fully integrated AI agents.";
+      }
 
-                    formMessage.scrollIntoView({ behavior: "smooth", block: "center" });
-                }
+      if (text.includes("engineering") || text.includes("iot")) {
+        return "For Engineering & IoT, we work on industrial automation, monitoring dashboards, and smart workflows that blend hardware + software + AI.";
+      }
 
-                // Reset button state
-                spinner.classList.add("hidden");
-                btnText.textContent = "Send Message";
-                submitBtn.disabled = false;
-            });
-        }
+      if (text.includes("web dev") || text.includes("website")) {
+        return "We design & build modern websites with a focus on speed, clarity and brand feel. Landing pages, full sites, dashboards — whatever fits your growth.";
+      }
 
-        // Video modal logic
-        function openVideoModal() {
-            const videoModal = document.getElementById("videoModal");
-            const video = document.getElementById("showreelVideo");
-            if (videoModal) {
-                videoModal.classList.remove("hidden");
-            }
-            if (video) {
-                video.currentTime = 0;
-                video.play().catch(() => {});
-            }
-        }
+      if (text.includes("ugc") || text.includes("ads")) {
+        return "Our UGC Ads are short-form video or visual creatives tailored to your brand tone and target audience — made to hook and convert.";
+      }
 
-        function closeVideoModal() {
-            const videoModal = document.getElementById("videoModal");
-            const video = document.getElementById("showreelVideo");
-            if (videoModal) {
-                videoModal.classList.add("hidden");
-            }
-            if (video) {
-                video.pause();
-            }
-        }
+      if (text.includes("digital product")) {
+        return "Digital Products can be e-books, templates, toolkits or other digital assets that help you share knowledge or add revenue streams.";
+      }
 
-        const videoModal = document.getElementById("videoModal");
-        if (videoModal) {
-            videoModal.addEventListener("click", function (e) {
-                if (e.target === videoModal) {
-                    closeVideoModal();
-                }
-            });
-        }
+      if (text.includes("price") || text.includes("pricing") || text.includes("cost")) {
+        return "Pricing depends a lot on scope, timelines and complexity. Share a bit about your project in the contact form and we’ll come back with a tailored quote. 💼";
+      }
 
-        // --- Simple on-site chatbot (within website data only) ---
+      if (text.includes("contact") || text.includes("reach") || text.includes("email") || text.includes("phone")) {
+        return "You can reach us at dev@netpilotai.com or +91 7899352501. The contact form below is usually the fastest way to get a detailed response.";
+      }
 
-        const chatBody = document.getElementById("chatBody");
-        const chatInput = document.getElementById("chatInput");
-        const typingIndicator = document.getElementById("typingIndicator");
-        const chatAvatar = document.getElementById("chatAvatar");
+      if (text.includes("demo") || text.includes("video")) {
+        return "You can click the 'Watch Demo' button in the hero section to see the video. 🎥";
+      }
 
-        // Knowledge base built from your current homepage content
-        const knowledgeBase = [
-            {
-                keywords: ["what is netpilot", "who are you", "about", "company"],
-                answer: "NetPilot Ai is a team of engineers and developers who build intelligent ecosystems for businesses. We focus on turning imagination into industrial reality using AI automation, smart engineering, and high-performance web systems."
-            },
-            {
-                keywords: ["services", "what do you do", "offer", "help me"],
-                answer: "Our core services include AI Automation, Custom AI Apps, Engineering Projects, E-Commerce Development, Web Development, Logo Designing, UGC Ad Creation, and Future Tech R&D. You can explore them in detail in the Services section."
-            },
-            {
-                keywords: ["ai automation", "llm", "agents", "chatbot"],
-                answer: "In AI Automation, we build custom agents, workflows and chatbots to handle repetitive work, support, lead qualification and more—so your team can focus on high-value tasks."
-            },
-            {
-                keywords: ["engineering", "industrial", "iot", "hardware"],
-                answer: "For engineering and IoT projects, we design AI-powered industrial and automation solutions, integrate hardware and sensors, and build dashboards for real-time monitoring and control."
-            },
-            {
-                keywords: ["web development", "website", "ecommerce", "store"],
-                answer: "We create high-performance websites and scalable e-commerce experiences with modern tech, fast load times, and conversion-focused UX."
-            },
-            {
-                keywords: ["ugc", "ads", "marketing", "campaign"],
-                answer: "For UGC and marketing, we produce high-impact short-form video and image ads tailored to your brand, helping you increase CTR and engagement across platforms."
-            },
-            {
-                keywords: ["projects", "case study", "examples"],
-                answer: "Some example projects: (1) Auto-Support AI Agent that reduced support tickets by about 65% for a logistics client. (2) Smart Inventory System using IoT and dashboards to auto-trigger re-orders. (3) Viral UGC campaign that significantly boosted CTR for a tech startup."
-            },
-            {
-                keywords: ["contact", "reach", "email", "phone"],
-                answer: "You can reach us at +91 7899352501 or dev@netpilotai.com. For detailed project enquiries, the contact form on this page is the best way to get started."
-            },
-            {
-                keywords: ["price", "cost", "charges", "how much"],
-                answer: "Pricing depends on the scope and complexity of the project. The best way is to share your requirements through the contact form, and we’ll come back with a tailored proposal."
-            }
-        ];
+      return "I might not have that exact answer yet. 😊 You can scroll down to the contact section and share more details — someone from NetPilot Ai™ will get back to you.";
+    }
 
-        function findAnswer(message) {
-            const text = message.toLowerCase();
-            for (const item of knowledgeBase) {
-                if (item.keywords.some(k => text.includes(k))) {
-                    return item.answer;
-                }
-            }
-            return "I don’t have that information on the site yet. You can share more details through the contact form or email us at dev@netpilotai.com and we’ll help you personally.";
-        }
+    async function sendChatMessage() {
+      const msg = chatInput.value.trim();
+      if (!msg) return;
 
-        function appendMessage(sender, text) {
-            const bubble = document.createElement("div");
-            bubble.classList.add(
-                "p-2",
-                "rounded-lg",
-                "text-xs",
-                "max-w-[80%]",
-                "mb-1"
-            );
+      appendMessage("user", msg);
+      chatInput.value = "";
 
-            if (sender === "user") {
-                bubble.classList.add("bg-brand-neon", "text-black", "rounded-tr-none", "self-end", "ml-auto");
-            } else {
-                bubble.classList.add("bg-gray-800", "text-gray-300", "rounded-tl-none");
-            }
+      typingIndicator.classList.remove("hidden");
+      chatAvatar.classList.add("bot-avatar-typing");
+      chatBody.scrollTop = chatBody.scrollHeight;
 
-            bubble.textContent = text;
-            // Insert before typing indicator
-            chatBody.insertBefore(bubble, typingIndicator);
-            chatBody.scrollTop = chatBody.scrollHeight;
-        }
+      await new Promise((res) => setTimeout(res, 600));
 
-        async function sendChatMessage() {
-            const msg = chatInput.value.trim();
-            if (!msg) return;
+      const reply = findAnswer(msg);
+      appendMessage("bot", reply);
 
-            appendMessage("user", msg);
-            chatInput.value = "";
-
-            // Show typing indicator + animate avatar
-            typingIndicator.classList.remove("hidden");
-            chatAvatar.classList.add("bot-avatar-typing");
-            chatBody.scrollTop = chatBody.scrollHeight;
-
-            // Fake thinking delay
-            await new Promise(res => setTimeout(res, 700));
-
-            const reply = findAnswer(msg);
-            appendMessage("bot", reply);
-
-            typingIndicator.classList.add("hidden");
-            chatAvatar.classList.remove("bot-avatar-typing");
-        }
-    </script>
+      typingIndicator.classList.add("hidden");
+      chatAvatar.classList.remove("bot-avatar-typing");
+    }
+  </script>
 </body>
 </html>
